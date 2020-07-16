@@ -1,0 +1,39 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+dist-name = "atmopy"
+module = "atmopy"
+author = "Jorge Martinez"
+author-email = "jorge@on-orbit.dev"
+home-page = "https://github.com/jorgepiloto/atmopy"
+description-file = "README.md"
+classifiers= [
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+
+]
+requires-python = ">=3.7"
+requires = []
+
+[tool.flit.metadata.requires-extra]
+dev = [
+    "hypothesis",
+    "pytest",
+    "pytest-cov",
+    "pytest-mypy",
+]
+doc = [
+    "sphinx",
+    "sphinx-hoverxref",
+    "sphinx_rtd_theme",
+]
+
+[tool.flit.sdist]
+include = ["docs/"]
+exclude = ["papers/"]
