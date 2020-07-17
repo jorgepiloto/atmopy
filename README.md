@@ -11,6 +11,9 @@
     <a href="https://github.com/jorgepiloto/amtmopy" alt="license">
         <img src="https://img.shields.io/github/license/jorgepiloto/atmopy"/>
     </a>
+    <a href='https://atmopy.readthedocs.io/en/latest/?badge=latest'>
+        <img src='https://readthedocs.org/projects/atmopy/badge/?version=latest' alt='Documentation Status' />
+    </a>
     <a href="https://travis-ci.com/jorgepiloto/atmopy" alt="travis">
         <img src="https://travis-ci.com/jorgepiloto/atmopy.svg?branch=master"/>
     </a>
