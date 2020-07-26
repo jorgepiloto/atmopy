@@ -29,6 +29,7 @@ dev = [
     "pytest-mypy",
 ]
 doc = [
+    "myst-parser",
     "sphinx",
     "sphinx-hoverxref",
     "sphinx_rtd_theme",
