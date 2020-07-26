@@ -1,20 +1,22 @@
-.. atmopy documentation master file, created by
-   sphinx-quickstart on Sun May  3 18:00:49 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to atmopy's documentation!
-===========================================================
+==================================
+
+.. image:: _static/logo.png
+   :align: center
+
+This is the official web hosted documentation for the **atmopy** Python library
+who's main purpose is to provide easy atmospheric computations for different
+atmospheric models.
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Welcome to atmopy
 
+   about
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Explanations
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   models/diehl22
