@@ -17,5 +17,7 @@ atmospheric models.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Explanations
+   :caption: References
+
+   autoapi/index
 
