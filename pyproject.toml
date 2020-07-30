@@ -30,7 +30,7 @@ dev = [
 ]
 doc = [
     "myst-parser",
-    "sphinx",
+    "sphinx<3,>=2",
     "sphinx-hoverxref",
     "sphinx_rtd_theme",
 ]
