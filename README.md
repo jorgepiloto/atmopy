@@ -26,7 +26,7 @@
 About
 -----
 
-Modelling the atmosphere is a complicated task since many variables play a role
+Modeling the atmosphere is a complicated task since many variables play a role
 on the different thermodynamic conditions: solar-fluxes, latitude and longitude
 position, diffusion of the different gasses...
 
@@ -40,13 +40,23 @@ This package is not only a collection of atmospheric routines but also a tribute
 to all those people who developed them during the early days of astronautics.
 
 
+Documentation
+-------------
+
+If you want to know how to use this package, please refer to [official
+documentation website](https://atmopy.readthedocs.io/en/latest/?badge=latest).
+Although more information about package utilities and API reference is provided
+in previous page, users will also find different examples and tutorials under
+the gallery section.
+
+
 How to contribute
 -----------------
 
-All contributors al welcome! As developer, you will need to clone the repository
-in your local machine and install it in "dev" mode, so as soon as you modify
-anything on the source code, your changes will show in the behaviour of the
-package. Please, follow these steps in order to achieve previous objective:
+All contributors are welcome! As developer, you will need to clone the
+repository in your local machine and install it in "dev" mode, so as soon as you
+modify anything on the source code, your changes will show in the behavior of
+the package. Please, follow these steps in order to achieve previous objective:
 
 1. Clone this repository.
 2. Run `flit install --symlink` so a symbolic link is created to the package.
