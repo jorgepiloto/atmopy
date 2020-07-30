@@ -19,4 +19,3 @@ atmospheric models.
    :maxdepth: 2
    :caption: Explanations
 
-   models/diehl22
