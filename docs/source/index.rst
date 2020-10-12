@@ -17,7 +17,14 @@ atmospheric models.
 
 .. toctree::
    :maxdepth: 2
+   :caption: Atmospheric models
+
+   models/US_Standard_Atmosphere_1976.ipynb
+
+.. toctree::
+   :maxdepth: 2
    :caption: References
 
    autoapi/index
+   bibliography
 

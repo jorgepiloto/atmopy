@@ -31,7 +31,7 @@ author = "Jorge Martinez"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["myst_parser", "autoapi.extension"]
+extensions = ["myst_nb", "autoapi.extension"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -53,8 +53,12 @@ html_theme = "sphinx_rtd_theme"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+html_logo = "_static/atmopy_snake.png"
 
 # Sphinx-autoapi configuration
 autoapi_type = 'python'
 autoapi_dirs = ['../../src']
 autoapi_template_dir = '_autoapi_templates'
+
+# Myst-nb configuration
+jupyter_execute_notebooks = "force"
