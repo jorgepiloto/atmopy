@@ -1,28 +1,3 @@
-<p align="center">
-    <img src="docs/source/_static/logo.png">
-</p>
-<p align="center">
-    <a href="https://github.com/jorgepiloto/atmopy" alt="atmopy">
-        <img src="https://img.shields.io/badge/-atmopy%20%F0%9F%8C%8D-blue"/>
-    </a>
-    <a href="https://www.python.org" alt="python">
-        <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"/>
-    </a>
-    <a href="https://github.com/jorgepiloto/amtmopy" alt="license">
-        <img src="https://img.shields.io/github/license/jorgepiloto/atmopy"/>
-    </a>
-    <a href='https://atmopy.readthedocs.io/en/latest/?badge=latest'>
-        <img src='https://readthedocs.org/projects/atmopy/badge/?version=latest' alt='Documentation Status' />
-    </a>
-    <a href="https://travis-ci.com/jorgepiloto/atmopy" alt="travis">
-        <img src="https://travis-ci.com/jorgepiloto/atmopy.svg?branch=master"/>
-    </a>
-    <a href="https://codecov.io/github/jorgepiloto/atmopy?branch=master" alt="codecov">
-        <img src="https://img.shields.io/codecov/c/github/jorgepiloto/atmopy.svg"/>
-    </a>
-</p>
-
-
 About
 -----
 
